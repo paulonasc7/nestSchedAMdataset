@@ -1,7 +1,7 @@
 # Nesting and scheduling in Additive Manufacturing
 This repository contains instances and respective results for the Additive Manufacturing (AM) nesting and scheduling problem and was created based on the following works:
  - "Optimal decomposition approach for solving large nesting and scheduling problems of additive manufacturing systems"
- - "Improving the efficiency of Logic-based Benders Decomposition for production scheduling problmes"
+ - "Improving the efficiency of Logic-based Benders Decomposition for production scheduling problems"
 
 ## The AM nesting and scheduling problem
 The AM nesting and scheduling problem consists of grouping a set of parts into batches and, subsequently, assigning and sequencing those batches in the machines available. This resembles a classical batch processing machine scheduling problem. The caveat is that the process of grouping parts into batches requires a 2D or 3D packing problem to guarantee that parts within a batch can be positioned in the building platform of the AM machine without overlapping. In this case, a 2D packing problem with irregular-shaped parts is considered, which is designated as nesting. To tackle nesting, the dotted-board model is used, where the building platform of the AM machines (i.e., the placement area) is represented by a mesh of dots that are evenly distributed and parts have a positioning point that is assigned to one of those dots.
