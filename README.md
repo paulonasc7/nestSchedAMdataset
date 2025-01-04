@@ -29,7 +29,7 @@ Files are named using the format ```nbParts-nbDots-nbMachines.xlsx``` where:
 Each file provides results for all instances corresponding to the specific combination of parameters.
 
 ### 2. Results from "Improving the Efficiency of Logic-based Benders Decomposition for Production Scheduling Problems"
-These results are stored in the Results_Improvements folder. This folder contains four subfolders organized as follows:
+These results are stored in the ```Results_Improvements``` folder. This folder contains four subfolders organized as follows:
 
 Results for **30 parts**, considering each individual acceleration method.
 
