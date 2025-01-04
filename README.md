@@ -12,9 +12,10 @@ Each folder contains the instances randomly generated for each number of parts. 
 ## Results
 
 ### 1. Results from "Improving the Efficiency of Logic-based Benders Decomposition for Production Scheduling Problems"
-These results are stored in the Results folder. Inside, you will find two subfolders, each containing results for:
+These results are stored in the ```Results``` folder. Inside, you will find two subfolders, each containing results for:
 
 **COPCSP** Algorithm
+
 **MIPCSP** Algorithm
 
 Files are named using the format ```nbParts-nbDots-nbMachines.xlsx``` where:
@@ -30,16 +31,19 @@ Each file provides results for all instances corresponding to the specific combi
 ### 2. Results from "Optimal Decomposition Approach for Solving Large Nesting and Scheduling Problems of Additive Manufacturing Systems"
 These results are stored in the Results_Improvements folder. This folder contains four subfolders organized as follows:
 
-Results for 30 parts, considering each individual acceleration method.
-Results for 30 parts, considering multiple acceleration methods.
-Results for 80 parts.
-Results for 120 parts.
-Files follow the naming convention:
-x.x.x_DEC_MSP_MMP_MC_nbParts-nbDots-nbMachines.xlsx
-where:
+Results for **30 parts**, considering each individual acceleration method.
 
-DEC: Decomposition approach used.
-MSP: Methods applied to the subproblems.
-MMP: Methods applied to the master problem.
-MC: Methods for deriving stronger cuts.
+Results for **30 parts**, considering multiple acceleration methods.
 
+Results for **80 parts**.
+
+Results for **120 parts**.
+
+Files follow the naming convention ```x.x.x_DEC_MSP_MMP_MC_nbParts-nbDots-nbMachines.xlsx``` where:
+
+```DEC```: Decomposition approach used.
+```MSP```: Methods applied to the subproblems.
+```MMP```: Methods applied to the master problem.
+```MC```: Methods for deriving stronger cuts.
+
+For detailed explanations of ```DEC```, ```MSP```, ```MMP```, and ```MC```, refer to the respective paper.
